@@ -7,11 +7,12 @@ Open Source Toolkit aims to make software development easier, more efficient, an
 The project focuses on providing practical solutions that developers can use, customize, and improve.
 
 Goals
-Build useful and reusable developer tools.
-Improve developer productivity through automation.
-Maintain clean, reliable, and documented code.
-Encourage community contributions and collaboration.
-Continuously improve functionality and code quality.
+-Build useful and reusable developer tools.
+-Improve developer productivity through automation.
+-Maintain clean, reliable, and documented code.
+-Encourage community contributions and collaboration.
+-Continuously improve functionality and code quality.
+
 Contributions
 Contributions, suggestions, bug reports, and feature requests are welcome.
 
