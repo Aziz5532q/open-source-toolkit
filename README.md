@@ -72,6 +72,11 @@ Please read CONTRIBUTING.md before submitting a pull request.
 
 Version 0.1.0 — Initial development release.
 
+Built so far:
+- Five utilities: File Organizer, JSON Validator, Text Analyzer, Code Cleaner, README Generator.
+- Automated tests with pytest (9 tests).
+- GitHub Actions workflow running the test suite on Python 3.10–3.13.
+
 This project is actively being developed. Features and documentation may change.
 
 ## License
