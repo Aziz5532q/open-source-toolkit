@@ -1,31 +1,85 @@
-Open Source Toolkit
+# Open Source Toolkit
 
-A community-driven open-source project focused on building useful developer tools, automation solutions, and reusable resources.
+A collection of practical, reusable Python utilities designed to simplify everyday software development tasks.
 
-About
+![Tests](https://github.com/Aziz5532q/open-source-toolkit/actions/workflows/tests.yml/badge.svg)
 
-Open Source Toolkit aims to make software development easier, more efficient, and accessible to everyone.
+## Features
 
-The project focuses on providing practical solutions that developers can use, customize, and improve.
+- File Organizer: Organize files by extension.
+- JSON Validator: Validate JSON strings and files.
+- Text Analyzer: Calculate words, characters, lines, and sentences.
+- Code Cleaner: Detect trailing whitespace.
+- README Generator: Generate basic Markdown documentation.
 
-Goals
+## Requirements
 
--Build useful and reusable developer tools.
+Python 3.10 or newer.
 
--Improve developer productivity through automation.
+## Installation
 
--Maintain clean, reliable, and documented code.
+Clone the repository:
 
--Encourage community contributions and collaboration.
+```bash
+git clone https://github.com/Aziz5532q/open-source-toolkit.git
+cd open-source-toolkit
+```
 
--Continuously improve functionality and code quality.
+Install the project:
 
+```bash
+python -m pip install -e ".[dev]"
+```
 
-Contributions
+## Usage
 
-Contributions, suggestions, bug reports, and feature requests are welcome.
+```python
+from open_source_toolkit.json_validator import validate_json
+from open_source_toolkit.text_analyzer import analyze_text
 
-If you have an idea that could improve this project, feel free to open an issue or submit a pull request.
+valid, message = validate_json('{"hello": "world"}')
+print(message)
 
-License
-This project is licensed under the MIT License.
+statistics = analyze_text("Hello open-source community!")
+print(statistics)
+```
+
+Run the demonstration:
+
+```bash
+python examples/example.py
+```
+
+## Run Tests
+
+```bash
+python -m pytest
+```
+
+## Project Structure
+
+- `src/`: Python utilities.
+- `tests/`: Automated tests.
+- `examples/`: Usage examples.
+
+## Contributing
+
+Contributions, bug reports, suggestions, and improvements are welcome.
+
+Please read CONTRIBUTING.md before submitting a pull request.
+
+## Current Status
+
+Version 0.1.0 — Initial development release.
+
+This project is actively being developed. Features and documentation may change.
+
+## License
+
+MIT License. See LICENSE for details.
+
+## Maintainer
+
+Ahmed Lapointe
+
+GitHub: @Aziz5532q
